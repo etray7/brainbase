@@ -1,0 +1,19 @@
+table {
+  box-shadow: $stock-common-shadow;
+  border-radius: 6px;
+  min-height: 40%;
+
+  th.mat-header-cell {
+    border-bottom-color: $stock-shadow-color;
+  }
+
+  td {
+    &.mat-cell {
+      border-bottom-color: $stock-shadow-color;
+    }
+  }
+
+  tr:last-child td.mat-cell {
+    border-bottom: 0;
+  }
+}

@@ -5,9 +5,13 @@
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "noImplicitOverride": true,
-    "noPropertyAccessFromIndexSignature": true,
+    "paths": {
+      "app/*": ["src/app/*"],
+      "app/@core/*": ["src/app/@core/*"],
+      "app/@common/*": ["src/app/@common/*"],
+      "app/@shared/*": ["src/app/@shared/*"]
+    },
+    "noImplicitAny": false,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,

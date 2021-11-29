@@ -1,0 +1,7 @@
+{
+  "*": {
+    "target": "https://staging-api.brainbase.com",
+    "secure": true,
+    "changeOrigin": true
+  }
+}
